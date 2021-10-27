@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ul {
+  height: 100px;
+}
+
+button {
+  font-size:1.3rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+button:hover{
+  background-color: red;
+  color: white;
+}
+
+button:active{
+  background-color: black;
+  color: rgb(163, 136, 136)
+}
